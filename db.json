@@ -1,0 +1,309 @@
+{
+  "Pizza": [
+    {
+      "id": 1,
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/c0800686-1aed-4e9c-a394-ddf9ded177ed/202110131956_V70F_i.jpg ",
+      "name": " CHOCOLATE COM MORANGO ",
+      "price": 39,
+      "ingredients": [
+        "Chcolate",
+        " Morango",
+        " Cobertura de Morango"
+      ]
+    },
+    {
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/c0800686-1aed-4e9c-a394-ddf9ded177ed/202110182036_7U54_i.jpg",
+      "name": "aaaaaaaaaa",
+      "ingredients": [
+        {
+          "id": 8,
+          "name": "Cebola"
+        },
+        {
+          "id": 16,
+          "name": "Azeitona"
+        },
+        {
+          "id": 25,
+          "name": "Doce de leite"
+        },
+        {
+          "id": 29,
+          "name": "Chocolate Amargo"
+        }
+      ],
+      "price": 29,
+      "id": 2
+    },
+    {
+      "url": "",
+      "name": "Pizza doida",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Molho"
+        },
+        {
+          "id": 2,
+          "name": "Queijo Mussarela"
+        },
+        {
+          "id": 3,
+          "name": "Tomate"
+        },
+        {
+          "id": 4,
+          "name": "Orégano"
+        },
+        {
+          "id": 5,
+          "name": "Frango"
+        },
+        {
+          "id": 6,
+          "name": "Calabresa"
+        },
+        {
+          "id": 7,
+          "name": "Catupiry"
+        },
+        {
+          "id": 8,
+          "name": "Cebola"
+        },
+        {
+          "id": 10,
+          "name": "Presunto"
+        },
+        {
+          "id": 12,
+          "name": "Palmito"
+        },
+        {
+          "id": 13,
+          "name": "Ervilha"
+        },
+        {
+          "id": 14,
+          "name": "Brocolis"
+        }
+      ],
+      "price": 29,
+      "id": 3
+    },
+    {
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/c0800686-1aed-4e9c-a394-ddf9ded177ed/202110182036_7U54_i.jpg",
+      "name": "Frango Catupiry",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Molho"
+        },
+        {
+          "id": 2,
+          "name": "Queijo Mussarela"
+        },
+        {
+          "id": 5,
+          "name": "Frango"
+        },
+        {
+          "id": 8,
+          "name": "Cebola"
+        },
+        {
+          "id": 7,
+          "name": "Catupiry"
+        },
+        {
+          "id": 4,
+          "name": "Orégano"
+        }
+      ],
+      "price": 29,
+      "id": 4
+    },
+    {
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/c0800686-1aed-4e9c-a394-ddf9ded177ed/202110182036_7U54_i.jpg",
+      "name": "Sei lá",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Tomate"
+        },
+        {
+          "id": 4,
+          "name": "Orégano"
+        },
+        {
+          "id": 5,
+          "name": "Frango"
+        },
+        {
+          "id": 2,
+          "name": "Queijo Mussarela"
+        },
+        {
+          "id": 10,
+          "name": "Presunto"
+        },
+        {
+          "id": 14,
+          "name": "Brocolis"
+        }
+      ],
+      "price": 29,
+      "id": 5
+    }
+  ],
+  "Ingredients": [
+    {
+      "id": 1,
+      "name": "Molho"
+    },
+    {
+      "id": 2,
+      "name": "Queijo Mussarela"
+    },
+    {
+      "id": 3,
+      "name": "Tomate"
+    },
+    {
+      "id": 4,
+      "name": "Orégano"
+    },
+    {
+      "id": 5,
+      "name": "Frango"
+    },
+    {
+      "id": 6,
+      "name": "Calabresa"
+    },
+    {
+      "id": 7,
+      "name": "Catupiry"
+    },
+    {
+      "id": 8,
+      "name": "Cebola"
+    },
+    {
+      "id": 9,
+      "name": "Atum"
+    },
+    {
+      "id": 10,
+      "name": "Presunto"
+    },
+    {
+      "id": 11,
+      "name": "Ovo"
+    },
+    {
+      "id": 12,
+      "name": "Palmito"
+    },
+    {
+      "id": 13,
+      "name": "Ervilha"
+    },
+    {
+      "id": 14,
+      "name": "Brocolis"
+    },
+    {
+      "id": 15,
+      "name": "Bacon"
+    },
+    {
+      "id": 16,
+      "name": "Azeitona"
+    },
+    {
+      "id": 17,
+      "name": "Camarão"
+    },
+    {
+      "id": 18,
+      "name": "Pimentão"
+    },
+    {
+      "id": 19,
+      "name": "Aliche"
+    },
+    {
+      "id": 20,
+      "name": "Queijo Cheddar"
+    },
+    {
+      "id": 21,
+      "name": "Queijo Provolone"
+    },
+    {
+      "id": 22,
+      "name": "Requeijão Cremoso"
+    },
+    {
+      "id": 23,
+      "name": "Cream Cheese"
+    },
+    {
+      "id": 24,
+      "name": "Carne Moida"
+    },
+    {
+      "id": 25,
+      "name": "Doce de leite"
+    },
+    {
+      "id": 26,
+      "name": "Chocolate"
+    },
+    {
+      "id": 27,
+      "name": "Chocolate Branco"
+    },
+    {
+      "id": 28,
+      "name": "Leite ninho"
+    },
+    {
+      "id": 29,
+      "name": "Chocolate Amargo"
+    },
+    {
+      "id": 30,
+      "name": "Granulado"
+    },
+    {
+      "id": 31,
+      "name": "Banana"
+    },
+    {
+      "id": 32,
+      "name": "Danoninho"
+    },
+    {
+      "id": 33,
+      "name": "Morango"
+    },
+    {
+      "id": 34,
+      "name": "Pimenta"
+    },
+    {
+      "id": 35,
+      "name": "Queijo Gorgonzola"
+    },
+    {
+      "id": 36,
+      "name": "Canela"
+    },
+    {
+      "id": 38,
+      "name": "Calabresa"
+    }
+  ]
+}

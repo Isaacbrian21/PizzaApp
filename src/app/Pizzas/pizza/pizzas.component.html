@@ -1,0 +1,17 @@
+<h1 class="title">Pizza Menu</h1>
+
+<ul  class="title" *ngIf="pizzas.length === 0">
+    <h2>PIZZA NOT FOUND</h2>
+</ul>
+<div class="container">
+    <div class="pizza-card" *ngFor="let pizza of pizzas">
+        <img src="{{pizza.url}}" alt="">
+        <h3>{{pizza.name}}</h3>
+        <p  class="price" >R${{pizza.price}},90</p>
+        <ul *ngFor="let ingredient of pizza.ingredients" >
+            {{ingredient.name}}
+        </ul>
+    </div>
+</div>
+
+

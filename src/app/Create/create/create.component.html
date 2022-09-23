@@ -1,0 +1,35 @@
+<div class="banner">
+    <div class="content">
+        
+      <h1>Make your Pizza</h1>
+      <h6>    Here you can choose your ingredients</h6>
+      <div class="ingredient">
+        <h3>Ingredient list</h3>
+        <ul *ngIf="ingredients.length === 0">
+          <h1>INGREDIENTS NOT FOUND</h1>
+        </ul>
+        <ul *ngFor="let ingredient of ingredients" class="list">
+          <button class="ing" (click)="addIng(ingredient)" >{{ingredient.name}}</button>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="part2">
+
+        <img src="../../../assets/LogoGrande.png" alt="foto minha" class="image">
+        
+        <h2>MAKING PIZZA</h2>
+        <div class="create" *ngIf="ingredientsNewPizza.length === 0">
+          <p class="warn" > Choose at least one ingredient</p>
+        </div>
+        <div class="name">
+          <input class="pizzaname" type="text" placeholder="Type the name of the pizza.." [(ngModel)]="pizzaName">
+        </div>
+        <ul *ngFor="let ingredient of ingredientsNewPizza">
+          {{ingredient.name}} 
+        </ul>
+
+        <button class="send" (click)="createPizza()" > Create Pizza</button>
+    </div>
+  </div>
+ 
